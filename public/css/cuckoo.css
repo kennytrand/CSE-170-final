@@ -18,3 +18,21 @@ div.container {
     height: auto;
     padding-top: 50px;
 }
+
+.timeheading {
+    text-align: left;
+    margin-top: 75px;
+}
+
+.timebox {
+    width: 100%;
+}
+
+.back {
+    display:inline-block;
+    margin-right:50px;
+} 
+
+.heading {
+    display:inline-block;
+} 
