@@ -30,9 +30,12 @@ div.container {
 
 .back {
     display:inline-block;
-    margin-right:50px;
+    vertical-align: middle;
+    padding-right: 80px;
 } 
 
 .heading {
     display:inline-block;
+    vertical-align: middle;
+    padding-right: 101px;
 } 

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Test Page</title>
+	<title>Set Time</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -9,8 +9,9 @@
 	<link href="/css/cuckoo.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-		<a href="../views/index.handlebars" class="back"><</a>
+   <!--
+	<div class="container">
+		<a href="views/index.handlebars" class="back"><</a>
         <h1 class="heading">Set Time</h1>
         <h4 class="timeheading">Work Duration</h4>
 		<input type="number" class="timebox">
@@ -19,6 +20,19 @@
 		<h4 class="timeheading">Break Duration</h4>
 		<button class="btn btn-default btn-block">Playlist 1</a>
 		<button class="btn btn-default btn-block">Start</a>
-    </div>
+  </div>
+-->
+
+	<div id="pomodoro-container">
+		<div id = "pomodoro-clock">
+			<div id="pomodoro-timer">
+				<button id="pomodoro-start">Start</button>
+				<button id="pomodoro-pause">Pause</button>
+				<button id="pomodoro-stop">Stop</button>
+			</div>
+		</div>
+	</div>
+	<script src="/js/scripty.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
