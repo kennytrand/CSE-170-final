@@ -39,3 +39,7 @@ div.container {
     vertical-align: middle;
     padding-right: 101px;
 } 
+
+.hidden {
+    display: none;
+}
