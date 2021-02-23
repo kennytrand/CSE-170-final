@@ -17,7 +17,7 @@ let isClockRunning = false;
 workDurationInput.value = '25'
 breakDurationInput.value = '5'
 
-/* 
+
 const progressBar = new ProgressBar.Circle('#pomodoro-timer', {
   strokeWidth: 2,;
   text: {
@@ -25,7 +25,7 @@ const progressBar = new ProgressBar.Circle('#pomodoro-timer', {
   },
   trailColor: '#f4f4f4',;
 })
-*/
+
 
 // Start button
 startButtron.addEventListener('click', () => {
