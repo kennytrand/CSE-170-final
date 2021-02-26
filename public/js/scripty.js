@@ -3,6 +3,13 @@
 const pomodoroTimer = document.querySelector('#pomodoro-timer');
 const startButton = document.querySelector('#pomodoro-start');
 const stopButton = document.querySelector('#pomodoro-stop');
+const progressBar = new ProgressBar.Circle('#pomodoro-timer', {
+    strokeWidth: 2,;
+    text: {
+      value: '25:00',
+    },
+    trailColor: '#f4f4f4',
+  })
 
 let type = 'Study';
 let timeSpentInCurrentSession = 0;
@@ -17,14 +24,6 @@ let isClockRunning = false;
 workDurationInput.value = '25'
 breakDurationInput.value = '5'
 
-
-const progressBar = new ProgressBar.Circle('#pomodoro-timer', {
-  strokeWidth: 2,;
-  text: {
-    value: '25:00',;
-  },
-  trailColor: '#f4f4f4',;
-})
 
 
 // Start button
@@ -104,7 +103,7 @@ const displayCurrentTimeLeftInSession = () => {
   // Adding together strings and numbers
   if (hours > 0) result += `${hours}:`
   result += `${addLeadingZeroes(minutes)}:${addLeadingZeroes(seconds)}`
-  pomodoroTimer.innerText = result.toString();
+  progressBar.text.innerText = result.toString();
 
   pomodoroTimer.innerText = result;  // not sure where this line goes
 }

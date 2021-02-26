@@ -1,7 +1,6 @@
 div.container {
     text-align: center;
-    margin-top: 25px;
-    padding-top: 25px;
+    margin-top: 50px;
     width: 375px;
 }
 
@@ -31,7 +30,7 @@ div.container {
 .back {
     display:inline-block;
     vertical-align: middle;
-    padding-right: 80px;
+    padding-right: 50px;
 } 
 
 .heading {
@@ -44,5 +43,11 @@ div.container {
     display: none;
 }
 
+.indexHeader > * {
+    vertical-align: middle;
+}
 
-
+#Cuckoo {
+    display:inline-block;
+    padding-bottom: 15px;
+}
