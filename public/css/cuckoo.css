@@ -20,7 +20,7 @@ div.container {
 
 .timeheading {
     text-align: left;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .timebox {
@@ -51,3 +51,34 @@ div.container {
     display:inline-block;
     padding-bottom: 15px;
 }
+
+.alfredChick {
+    padding-top: 90px;
+    width: 300px;
+    height: 500px;
+}
+
+.alfredBg {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eggBg {
+    background-image: url(../images/planks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginBg {
+    background-image: url(../images/sky.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+.cuckooBg {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

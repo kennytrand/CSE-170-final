@@ -27,7 +27,7 @@ function changeUser(response) {
     $("#photo").attr("src", response.picture.data.url);
 }
 
-
+// added in 
 FB.login(function(response) {
      if (response.authResponse) {
         window.top.location = "/";
