@@ -38,7 +38,7 @@ div.container {
 .back {
     display:inline-block;
     vertical-align: middle;
-    padding-right: 20px;
+    padding-right: 5px;
 } 
 
 .heading {
@@ -54,7 +54,7 @@ div.container {
 .indexHeader {
     padding-bottom: 15px;
     display: inline-block;
-    margin-left: 100px;
+    /*margin-left: 20px;*/
 }
 
 .alfredChick {
@@ -88,7 +88,25 @@ div.container {
 }
 
 .icon {
-    display: inline-block;
-    padding-left: 60px;
+    text-align: right;
+    padding-left: 1px;
 }
 
+.containerLog {
+    text-align: center;
+    margin-top: 50px;
+    width: 375px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.containerEgg {
+    text-align: center;
+    margin-top: 50px;
+    width: 375px;
+    zoom: 200%;
+    margin-left: auto;
+    margin-right: auto;
+}

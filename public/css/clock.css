@@ -4,6 +4,7 @@ div.container {
   text-align: center;
   margin-top: 50px;
   width: 375px;
+  height: 100vh;
 }
 
 body {
@@ -81,6 +82,12 @@ form button {
   background: rgb(131, 10, 252);
   color: white;
 }
+.indexHeader {
+    padding-bottom: 15px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .clock {
   padding: 3px;
   display: flex;
