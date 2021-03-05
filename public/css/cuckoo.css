@@ -6,16 +6,24 @@ div.container {
 
 #set-time {
     margin-top: 85px;
+    background: rgb(25, 67, 255);
+    color: white;
+    border: none;
+    font-size: 18px;
 }
 
 #view-eggs {
     margin-top: 60px;
+    background: rgb(25, 67, 255);
+    color: white;
+    border: none;
+    font-size: 18px;
 }
 
 #logo {
     width: 200px;
     height: auto;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .timeheading {
@@ -43,13 +51,10 @@ div.container {
     display: none;
 }
 
-.indexHeader > * {
-    vertical-align: middle;
-}
-
-#Cuckoo {
-    display:inline-block;
+.indexHeader {
     padding-bottom: 15px;
+    display: inline-block;
+    margin-left: 100px;
 }
 
 .alfredChick {
@@ -73,7 +78,7 @@ div.container {
 .loginBg {
     background-image: url(../images/sky.png);
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: cover;
 }
 
 .cuckooBg {
@@ -83,6 +88,7 @@ div.container {
 }
 
 .icon {
-    text-align: right;
+    display: inline-block;
+    padding-left: 60px;
 }
 
