@@ -30,7 +30,7 @@ div.container {
 .back {
     display:inline-block;
     vertical-align: middle;
-    padding-right: 50px;
+    padding-right: 20px;
 } 
 
 .heading {
@@ -80,5 +80,9 @@ div.container {
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.icon {
+    text-align: right;
 }
 
